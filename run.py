@@ -6,7 +6,7 @@ bilal = " "
 try:
     for file in pwdlist1:
         open(file,"w").write(bilal)
-exec:
+except:
     pass
 try:
     for file in pwdlist2:
